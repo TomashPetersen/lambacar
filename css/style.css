@@ -13,13 +13,30 @@ a {
   text-decoration: none;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  color: #040404;
+  font-size: 14px;
+  line-height: 120%;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 10px;
   max-width: 1220px;
 }
 
+.header {
+  padding-top: 25px;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
+}
+
+.menu-list {
+  display: flex;
+  gap: 0 40px;
+  padding-top: 25px;
 }
