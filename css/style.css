@@ -235,6 +235,30 @@ body {
   color: #ffffff;
 }
 
+.evo-black__inner {
+  position: relative;
+}
+
+.evo-black__inner::before {
+  content: "";
+  background-image: url(../images/dec-1.svg);
+  width: 185px;
+  height: 213px;
+  top: 205px;
+  left: -140px;
+  position: absolute;
+}
+
+.evo-black__inner::after {
+  content: "";
+  background-image: url(../images/dec-2.svg);
+  width: 498px;
+  height: 572px;
+  top: 290px;
+  left: -40px;
+  position: absolute;
+}
+
 .evo-black__info {
   display: flex;
   justify-content: space-between;
@@ -258,6 +282,8 @@ body {
 .evo-black__img {
   display: block;
   margin: 170px auto 60px;
+  position: relative;
+  z-index: 1;
 }
 
 .evo-black__descr-list {
@@ -270,8 +296,29 @@ body {
   text-transform: uppercase;
 }
 
-.evo-white_inner {
+.evo-white__inner {
   padding-top: 125px;
+  position: relative;
+}
+
+.evo-white__inner::before {
+  content: "";
+  background-image: url(../images/dec-3.png);
+  width: 274px;
+  height: 257px;
+  top: -25px;
+  left: 361px;
+  position: absolute;
+}
+
+.evo-white__inner::after {
+  content: "";
+  background-image: url(../images/dec-4.png);
+  width: 324px;
+  height: 311px;
+  top: 115px;
+  left: 600px;
+  position: absolute;
 }
 
 .evo-white__text {
