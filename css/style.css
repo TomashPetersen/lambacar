@@ -353,3 +353,86 @@ body {
   display: block;
   color: #ffffff;
 }
+
+.blog {
+  margin-bottom: 100px;
+}
+
+.blog__title {
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.blog__item-img {
+  margin-bottom: 20px;
+}
+
+.blog__item-title {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  min-height: 46px;
+  margin-bottom: 10px;
+}
+
+.blog__item-text {
+  margin-bottom: 10px;
+}
+
+.blog__item-link {
+  color: #363636;
+  font-size: 12px;
+}
+
+.blog__slider {
+  position: relative;
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+
+.blog__button {
+  position: absolute;
+  top: 0;
+  cursor: pointer;
+  left: 50%;
+}
+.swiper-button-left {
+  transform: translateX(-41px);
+}
+.swiper-button-right {
+  transform: translateX(8px);
+}
+
+.blog__qoute {
+  display: flex;
+  justify-content: center;
+  gap: 0 48px;
+}
+
+.blog__quote-box {
+  flex-basis: 434px;
+}
+
+.blockquote {
+  margin-bottom: 30px;
+}
+
+.blockquote__name {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-style: normal;
+}
+
+.blockquote__name span {
+  display: block;
+  color: #9f6b08;
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+.blockquote__text {
+  font-style: italic;
+}
